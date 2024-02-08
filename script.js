@@ -95,3 +95,26 @@ function tabuada (num) {
     }
 }
 tabuada(3);
+
+/*12.Crie uma lista vazia, com o nome listaGenerica.*/
+let listaGenerica = [];
+
+/*13.Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python'.*/
+let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'kotlin', 'Python'];
+console.log(linguagensDeProgramacao);
+
+/*14.Adicione à lista linguagensDeProgramacao os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.*/
+linguagensDeProgramacao.push('Java', 'Ruby', 'GoLang');
+console.log(linguagensDeProgramacao);
+
+/*15.Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.*/
+let listaNomes = ['abacaxi', 'melancia', 'maçã'];
+console.log(listaNomes[0]);
+
+/*16.Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.*/
+listaNomes = ['abacaxi', 'melancia', 'maçã'];
+console.log(listaNomes[1]);
+
+/*17.Crie uma lista com 3 nomes e exiba no console apenas o último elemento.*/
+listaNomes = ['abacaxi', 'melancia', 'maçã'];
+console.log(listaNomes[2]);
